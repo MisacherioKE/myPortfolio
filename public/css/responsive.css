@@ -1,0 +1,182 @@
+@media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+    .menuIcon{
+        display: block;
+        margin-right: 20px;
+    }
+    .mainDiv{
+        width: 100%;
+        background-size: cover;
+    }
+    .centreDiv{
+        position: absolute;
+        left: 15vh;
+    }
+    .hire{
+        position: absolute;
+        left: 25%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .p2{
+        font-size: 25px;
+    }
+    .p3{
+        font-size: 12px;
+    }
+    .aboutDiv{
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+    .aboutDiv1{
+        /* height: 250px;
+        width: 80%;
+        margin: 10%;
+        border-radius: 7px;
+        background-size: cover; */
+        display: none;
+    }
+    .aboutDiv1 img{
+        /* height: 250px;
+        width: 80%;
+        margin: 10%;
+        border-radius: 7px; */
+        display: none;
+    }
+    .aboutDiv2{
+        width: 70%;
+        margin: 10%;
+        position: absolute;
+        left: 10%;
+        top: 0%;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+    .about1{
+        font-size: 15px;
+    }
+    .about2{
+        font-size: 20px;
+    }
+    .about3{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .about4{
+        font-size: 12px;
+    
+    }
+    .myskills{
+        width: 70%;
+        margin: 10%;
+        border-radius: 7px;
+        position: absolute;
+        left: 10%;
+        top: 95%;
+    }
+    .skills1{
+        font-size: 15px;
+    }
+    /* .bubble1{
+        height: 150px;
+        width: 150px;
+    }
+    .web{
+        font-size: 20px;
+    }
+    .percentage{
+        font-size: 33px;
+        position: absolute;
+        bottom: 35px;
+    }
+    .bubble2{
+        height: 125px;
+        width: 125px;
+    }
+    .percentage2{
+        font-size: 35px;
+    position: absolute;
+    bottom: 5px;
+    }
+    .bubble3{
+        height: 100px;
+        width: 100px;
+    }
+    .backend{
+        font-size: 12px;
+    }
+    .percentage3{
+        font-size: 30px;
+        position: absolute;
+        bottom: 0px;
+    } */
+    .balloons{
+        /* width: 80%;
+        height: 30vh; */
+        display: none;
+    }
+    .viewPort{
+        position: absolute;
+        left: 0%;
+        padding: 5px;
+        font-size: 15px;
+        top: 170%;
+    }
+    .myPortfolio{
+        height: 50vh;
+        width: 80%;
+        position: absolute;
+        top: 180vh;
+    }
+    .myPortfolio p{
+        font-size: 18px;
+
+    }
+    .topRow{
+        display: block;
+        width: 80%;
+    }
+    .two{
+        display: block;
+        width: 80%;
+    }
+    .portA{
+        height: fit-content;
+        width: 70%;
+        margin: 10%;
+    }
+    .services{
+        height: 50vh;
+        width: 80%;
+    }
+    .serviceList{
+        display: block;
+        margin: 10%;
+        width: 70%;
+    }
+    .sevice1{
+        font-size: 15px;
+    }
+    .sevice2{
+        font-size: 20px;
+    }
+    .sevice3{
+        font-size: 18px;
+    }
+    .design{
+        width: fit-content;
+        margin: 10%;
+    }
+    .something{
+        position: absolute;
+        bottom: 20vh;
+    }
+}

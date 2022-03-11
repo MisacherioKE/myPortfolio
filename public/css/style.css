@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px; 
+    position: absolute; 
+    top: 0;
+    width: 90%;
+}
+
+.listItem{
+    text-decoration: none;
+    display: inline;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.listItem:hover{
+    color: crimson;
+}
+.mainDiv{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    position: relative;
+}
+.opacity{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0%;
+}
+.socialMedia1{
+    position: absolute;
+    left: 0%;
+    top: 35vh;
+}
+.twitter{
+    color: white;
+}
+.centreDiv{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 40%;
+}
+.p1{
+    text-align: center;
+    font-size: 30px;
+}
+.p2{
+    font-size: 50px;
+}
+.p3{
+    font-size: 25px;
+    text-align: center;
+}
+.hire{
+    background-color: crimson;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 120%;
+}
+.hire:hover{
+    background-color: transparent;
+    border-style: solid;
+}
+.aboutDiv{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    position: relative;
+}
+.viewPort{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: 120%;
+}
+.viewPort:hover{
+    background-color: coral;
+    font-weight: bold;
+    border-style: solid;
+}
+.aboutDiv1{
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px coral;
+}
+.aboutDiv1 img{
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+}
+.about1{
+    color: crimson;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.about2{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.about3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about4{
+    font-size: 18px;
+}
+.aboutDiv2{
+    position: absolute;
+    width: 400px;
+    left: 28%;
+    top: 10%;
+}
+.myskills{
+    position: absolute;
+    width: 450px;
+    top: 2%;
+    right: 10%;
+}
+.skills1{
+    color: crimson;
+    font-size: 20px;
+}
+.bubble1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: royalblue;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: bubble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bubble1{
+    from{
+        left: -7px;
+    }
+    to{
+      left: 0;
+    }
+}
+.line{
+    position: absolute;
+    border-style: double;
+    width: 350px;
+    transform: rotate(90deg);
+    left: 45%;
+    animation-name: line;
+    animation-duration: 4s;
+   transition: 2S;
+}
+@keyframes line{
+    from{
+        width: 50px;
+        color: bisque;
+    }
+    to{
+      width: 350px;
+       color: blue;
+    }
+}
+.web{
+    font-size: 40px;
+    position: absolute;
+    top: 35px;
+    color: white;
+}
+.percentage{
+    color: white;
+    font-size: 65px;
+    position: absolute;
+    bottom: 75px;
+    
+}
+.bubble2{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: -50px;
+    top: 300px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    animation-name: bubble2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bubble2{
+    from{
+       right: -30px;
+    }
+    to{
+        right: -50px;
+    }
+}
+.percentage2{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    bottom: 30px;
+}
+.bubble3{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    right: 80px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    animation-name: bubble3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bubble3{
+    from{
+        top: 490px;
+    }
+    to{
+        top: 500px;
+    }
+}
+.backend{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35px;
+}
+.percentage3{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 30px;
+}
+.myPortfolio{
+    height: 120vh;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.myPortfolio p{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.topRow{
+    display: flex;
+    width: 100%;
+    margin-left: 150px;
+}
+.bottomRow{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.two{
+    display: flex;
+    width: 100%;
+}
+.portA{
+    height: 320px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: cover;
+}
+.portA:hover .opacity2{
+    background-color: tomato;
+    display: block;
+    opacity: 0.8;
+}
+.Img1{
+    height: 280px;
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+    margin-right: 50px;
+}
+.opacity2{
+    height: 280px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: transparent;
+    margin-right: 30px;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.services{
+    height: 100vh;
+    width: 100%;
+    background: bisque;
+}
+.serviceList{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.sevice1{
+    color: crimson;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sevice2{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sevice3{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.something{
+    position: absolute;
+    top: 35vh;
+    left: 72vh;
+}
+.something p{
+    font-size: 20px;
+}
+.something a{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: 15vh;
+}
+.something a:hover{
+    background-color: coral;
+    font-weight: bold;
+    border-style: solid;
+}
+.design{
+    width: 30%;
+    height: 25vh;
+    background-color: whitesmoke;
+    border: solid white 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.myBlog{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    text-align: center;
+}
+.loremTxt{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Updatescont a{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;  
+    position: absolute;
+    right: 20%;
+}
+.Updatescont a:hover{
+    background-color: coral;
+    font-weight: bold;
+    border-style: solid;
+}
+.designBlog{
+    height: 30vh;
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 20vh;
+}
+.designBlog img{
+    height: 30vh;
+    width: 50%;
+    border-radius: 20px;
+}
+.devBlog{
+    margin-top: 30px;
+    margin-left: 20vh;
+    height: 30vh;
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.devBlog img{
+    height: 30vh;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.contents{
+    margin-left: 20vh;
+}
+.webTxt{
+    color: crimson;
+    font-size: 40px;
+}
+.webTxt2{
+    font-size: 20px;
+}
+.date{
+    color: gray;
+}
+.contact{
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+}
+.contactCont{
+    display: flex;
+}
+.contactCont img{
+    height: 70px;
+    margin-top: 20px;
+}
+.divA{
+    width: 50%;
+    margin-left: 150px;
+    margin-right: 50px;
+    position: relative;
+}
+.pOne{
+    font-size: 20px;
+}
+.pTwo{
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    margin-top: 20px;
+}
+.pThree{
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.pFour{
+    font-size: 25px;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.red{
+    color: crimson;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.divB{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    padding: 5px;
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.message{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sub{
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(46, 42, 42);
+    position: relative;
+}
+.top{
+    position: absolute;
+    right: 2%;
+    top: -15%;
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+    height: 10vh;
+    width: 5vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.brand{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 5%;
+    top: -9%;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+
+/* responsive */
+.menu{
+    display: block;
+}
+.menuIcon{
+    display: none;
+}
+.balloons{
+    display: block;
+}
