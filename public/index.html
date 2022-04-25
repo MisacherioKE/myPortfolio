@@ -1,209 +1,658 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <script src="https://use.fontawesome.com/e252eaa41c.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
+  <!-- Title of The Page -->
+  <title>My Personal Portfolio </title>
+  <!-- Meta Informations -->
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Favicon -->
+  <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+  <!-- Font CSS -->
+  <link type="text/css" rel="stylesheet" href="css/font.css" />
+  <!-- Font-Awesome All CSS -->
+  <link type="text/css" rel="stylesheet" href="css/all.css" />
+  <!-- Bootstrap CSS -->
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+
+  <!-- Owlcarousel CSS -->
+  <link type="text/css" rel="stylesheet" href="css/owl.css" />
+  <!-- Fancybox CSS -->
+  <link type="text/css" rel="stylesheet" href="css/fancybox.css" />
+  <!-- Styles CSS -->
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <!-- Responsive CSS -->
+  <link type="text/css" rel="stylesheet" href="css/responsive.css" />
+  <!-- Animate CSS -->
+  <link type="text/css" rel="stylesheet" href="css/animate.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4f2385cc7b.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
+
 <body>
-    <div id="main" class="mainDiv">
-<div class="opacity"></div>
-<div class="navBar">
-    <div class="menu">
-        <a class="listItem" href="#main">Home</a>
-    <a class="listItem" href="#about">About</a>
-    <a class="listItem" href="#portfolio">Portfolio</a>
-    <a class="listItem" href="#services">Services</a>
-    <a class="listItem" href="#blog">Blog</a>
-    <a class="listItem" href="#contact">Contact</a>
-</div>    
-    <img class="menuIcon" src="/public/images/menu_white_24dp.svg" alt="">
-    <div class="socialMedia1">
-        <img class="twitter" src="/public/images/twitter.svg" alt="">
-        <img class="fb" src="/public/images/fb.svg" alt="">
-        <img class="insta" src="/public/images/insta.svg" alt="">
+  <script>
+     window.oncontextmenu =()=>{
+     return false;
+ };
+  </script>
+  <!-- Body Part Start -->
+  <div class="gaspar" data-magic-cursor="show" data-color="crimson">
+    <!-- Pre-Loader Start-->
+    <div id="preloader">
+      <div class="loader_line"></div>
     </div>
-</div>
-<div class="centreDiv">
-    <p class="p1">Welcome!</p>
-    <p class="p2">I'm A Developer</p>
-    <p class="p3">Designer | Developer</p>
-    <a class="hire" href="#about">About Me</a>
-</div>
-</div>
-<div id="about" class="aboutDiv">
-    <div class="aboutDiv1">
-        <img src="/images/slidebean-ymTcgQg-2BE-unsplash.jpg" alt="">
+    <!-- Pre-Loader end -->
+    <!-- Header-section Start-->
+    <div class="header-holder services-section text-center animate__animated animate__zoomIn">
+      <div class="navigation">
+        <ul class="nav">
+          <li class="list indicator active">
+            <a href="#home" class="active">
+              <span class="icon">
+                <i class="fa-solid fa-house-chimney-user"></i>
+              </span>
+              <div class="social__tooltip social__tooltip-bottom">Home</div>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#about">
+              <span class="icon">
+                <i class="fa-solid fa-user"></i>
+              </span>
+              <div class="social__tooltip social__tooltip-bottom">About</div>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#portfolio">
+              <span class="icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </span>
+              <div class="social__tooltip social__tooltip-bottom">Portfolio</div>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#blog">
+              <span class="icon">
+                <i class="fa-solid fa-blog"></i>
+              </span>
+              <div class="social__tooltip social__tooltip-bottom">Blog</div>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#contact">
+              <span class="icon">
+                <i class="fa-solid fa-phone-flip"></i>
+              </span>
+              <div class="social__tooltip social__tooltip-bottom">Contact</div>
+            </a>
+          </li> 
+        </ul>
+      </div>
     </div>
-    <div class="aboutDiv2">
-        <p class="about1">About Me</p>
-        <p class="about2">I'm <b>Carlos</b> <br> a <b>Developer</b></p>
-        <p class="about3">Based in <i class="fa-solid fa-location-pin"></i> Kenya</p>
-        <p class="about4">Hi! My name is Carlos Misachi. I am UI/UX designer, and 
-            I'm very passionate <br> and dedicated to my work.
-            With 4 years experience as a professional <br> graphic designer and 
-            web developer, I have acquired the skills and knowledge <br>
-            necessary to make your project a success.</p>
-            <a class="viewPort" href="#portfolio">View Portfolio</a>
-        </div>
-        <hr class="line">
-    <div class="myskills">
-        <p class="skills1">My Skills</p>
-        <p class="about2 skills2">Turning <b>Imaginations</b>  <br> Into <b>Reality.</b></p>
-        <p class="about4 skills3">I am working on a professional, visually sophisticated and 
-            technologically proficient, responsive and multi-functional creative
-             personal resume portfolio template.</p>
-             <div class="balloons">
-                <div class="bubble1">
-                    <p class="web">Website <br> Design</p>
-                    <p class="percentage">90%</p>
+    <!-- Header-section End-->
+    <!-- section-part Start -->
+    <div class="container ">
+
+      <!-- Index-page Start -->
+      <section id="home" class="section active">
+        <div class="homecolor-block"></div>
+        <div class="common_bg animate__animated animate__zoomIn">
+          <div class="container m-auto">
+            <div class="row align-items-center">
+              <!-- Profile-Pic -->
+              <div class=" col-xl-5 col-lg-6 col-md-6 col-12">
+                <div class="home-profile animate__animated animate__fadeInLeft animate__delay-1s">
+                  <img src="../public/images/carlos.jpeg" alt="my photo">
                 </div>
-                <div class="bubble2">
-                   <p class="web UX">UI/UX <br> Design</p>
-                   <p class="percentage2">80%</p>
-               </div>
-               <div class="bubble3">
-                   <p class="backend">Backend <br> Development</p>
-                   <p class="percentage3">70%</p>
-               </div>
-             </div>
-             
-    </div>
-</div>
-   
-    <div id="portfolio" class="myPortfolio">
-        <p>Checkout My Recent Work</p>
-        <div class="topRow">
-            <div class="portA">
-                <div class="opacity2"></div>
-                <img class="Img1" src="/images/airfocus-QSWWxx03LhE-unsplash.jpg" alt="">
-                <h2>YouTube Clone </h2>
-            </div>
-            <div class="portA portB">
-                <div class="opacity2"></div>
-                <img class="Img1"  src="/images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="">
-                <h2>Makini School Clone </h1>
-            </div>
-            <div class="portA portC">
-                <div class="opacity2"></div>
-                <img class="Img1"  src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="">
-                <h2>Ubunifu College Clone </h2>
-            </div>
-        </div>
-        <div class="bottomRow">
-            <div class="two">
-                <div class="portA portD">
-                    <div class="opacity2"></div>
-                    <img class="Img1" src="/images/neonbrand-y_6rqStQBYQ-unsplash.jpg" alt="">
-                    <h2>Twitter Clone </h2>
+              </div>
+              <!-- Profile-Pic End-->
+              <!-- Profile-Information -->
+              <div class="col-xl-7 col-lg-6 col-md-6 col-12">
+                <div class="home-content">
+                  <P class="common-desctiption animate__animated animate__fadeInDown animate__delay-2s">Get to know me
+                  </P>
+                  <h1 class="common-title animate__animated animate__fadeInDown animate__delay-3s"> Carlos Misachi </h1>
+                  <div class="animated-bar animate__animated animate__fadeInDown animate__delay-3s"></div>
+                  <div class="animated-text animate__animated animate__fadeInDown animate__delay-3s">
+                    <h3>Software Engineer</h3>
+                    <h3>Graphic Designer</h3>
+                    <h3>Content Developer</h3>
+                  </div>
+                  <!-- Social media icons-->
+                  <div class="fixed-block animate__animated animate__jackInTheBox animate__delay-5s">
+                    <ul class="list-unstyled social-icons">
+
+                      <li><a href="https://github.com/MisacherioKE"><i class="fa-brands fa-github"></i></a></li>
+                      <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BNNferOm9TmaariBOmNRgSw%3D%3D"><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li><a href="https://twitter.com/misacherioKE"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a href="https://wa.me/message/DG6NS7TPBBIJP1"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+                  <p class="lorem-text animate__animated animate__zoomIn animate__delay-3s">Hi, my name is Carlos Misachi, 
+                    I am an experienced freelance Software Engineer based in Nairobi, Kenya
+                    who specializes in product developement,UI/UX design, web design,
+                    graphic design and digital marketing.
+                  </p>
+                  <div class="home-btn">
+                    <a href="#contact" data-section-index="1"
+                      class="clickbtn hire-me animate__animated animate__fadeInTopLeft animate__delay-5s ">Hire me</a>
+                    <a href="#about" data-section-index="1"
+                      class="clickbtn about animate__animated animate__fadeInTopRight animate__delay-5s">about me </a>
+                  </div>
                 </div>
-                <div class="portA portE">
-                    <div class="opacity2"></div>
-                    <img class="Img1"  src="/images/slidebean-ymTcgQg-2BE-unsplash.jpg" alt="">
-                    <h2>Figma </h2>
-                </div>
-                <div class="portA portF">
-                    <div class="opacity2"></div>
-                    <img class="Img1"  src="/public/images/helloCapture.PNG" alt="">
-                    <h2>Hello Chef Clone </h2>
-                </div>
+              </div>
+              <!-- Profile-Information End -->
             </div>
+          </div>
         </div>
-    </div>
-        
-    <div id="services" class="services">
-        <p class="sevice1">What I Do</p>
-        <p class="sevice2">My Services</p>
-        <p class="sevice3">I curate experiences with technology.</p>
-        <div class="serviceList">
-            <section class="design">
-                <h1>Web Design</h1>
-                <p class="sec2">Lorem, ipsum dolor sit Lorem, 
-                    ipsum dolor sit amet consectetur adipisicing 
-                    amet consectetur adipisicing </p>
-            </section>
-            <section class="design marketing">
-                <h1>Digital Marketing</h1>
-                <p>Lorem, ipsum dolor 
-                    Lorem, ipsum dolor sit amet consectetur adipisicing 
-                    sit amet consectetur adipisicing </p>
-            </section>
-            <section class="design branding">
-                <h1>Brand Identity</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicingLorem, ipsum dolor sit amet consectetur 
-                    adipisicing  </p>
-            </section>
-            <section class="design something">
-                <p>Do You Want Something Different?</p>
-                <a  href="#contact">Get In Touch</a>
-            </section>
-        </div>
-    </div>
-        <section id="blog" class="myBlog">
-            <p class="sevice1">Latest Updates</p>
-            <p class="sevice2">From My Blog</p>
-            <p class="loremTxt">Lorem ipsum dolor sit amet consectetur </p>
-            <div class="Updatescont">
-                <div class="designBlog">
-                    <img src="/public/images/airfocus-QSWWxx03LhE-unsplash.jpg" alt="">
-                    <div class="contents">
-                        <p class="webTxt">Web Design</p>
-                        <p class="webTxt2">How to design a simple website</p>
-                        <p class="date">February 10,2022</p>
+      </section>
+      <!-- Index-page End -->
+
+      <!-- About Section Start -->
+      <section id="about" class="section ">
+        <div class="homecolor-block"></div>
+        <div class="common_bg animate__animated animate__fadeInDown">
+          <div class="container">
+            <div class="about-content">
+              <!-- About Title Start-->
+              <div class="row ">
+                <div class="col-12 ">
+                  <div class="section-title  animate__animated animate__fadeInDown animate__delay-1s">
+                    <P class="common-desctiption">my intro</P>
+                    <h1 class="common-title">About <span>Me</span></h1>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- About Title End -->
+              <!-- About-Me -->
+              <div class="row single-section">
+                <div class="col-lg-4 profile-photo animate__animated animate__fadeInLeft animate__delay-2s ">
+                  <div class="row">
+                    <div class="col-12 d-block col-sm-none">
+                      <img src="../public/images/carlos2.jpeg" class="img-fluid main-img-mobile" alt="my picture">
                     </div>
-               
-                <a href="">Read More</a>
+                  </div>
                 </div>
-                <div class="devBlog">
-                    <img src="/public/images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="">
-                   <div class="contents">
-                    <p class="webTxt">Mobile app development</p>
-                    <p class="webTxt2">What to know about mobile apps</p>
-                    <p class="date">January 23, 2022</p>
-                   </div>
-                    <a href="">Read More</a>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="row personal-info animate__animated animate__fadeInRight animate__delay-2s">
+
+                    <div class="col-12">
+                      <h3 class="personal-title">I'm Carlos Misachi, a <span>Software Engineer</span> </h3>
+                      <p class="info">based in Nairobi, Kenya with experience in product developement, 
+                        UI/UX design, graphic design, web design and digital marketing. I help businesses and individuals build beautiful, responsive & accessible websites, 
+                        curate engaging content and build a long lasting online presence. 
+                        I am very passionate and dedicated to helping convert business ideas into meaningful and useful products. </p>
+                    </div>
+
+                    <div class="row align-items-center">
+                      <div class="col-lg-12">
+                        <h3 class="personal-infotitle">personal <span>information</span></h3>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <ul class="about-list ">
+                          <li>
+                            <span class="title"> name :</span>
+                            <span class="value">Carlos</span>
+                            <span  class="value">Misachi</span>
+                          </li>
+                          <li>
+                            <span class="title">phone number :</span>
+                            <span class="value">+254 700 79 69 85</span>
+                          </li>
+                        
+                         
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <ul class="about-list">
+                          <li>
+                            <span class="title">E-mail :</span>
+                            <span class="value"><a href="mailto:misacherio@hotmail.com">misacherio@hotmail.com</a></span>
+                          </li>
+                          
+                          <li>
+                            <span class="title">Languages :</span>
+                            <span class="value">English,</span>
+                            <span class="value">Kiswahili</span>
+                          </li>
+                          
+                        </ul>
+                      </div>
+
+                      <div class="col-lg-5 col-sm-6 col-12">
+                        <div class="About-btn">
+                          <button id="b1" class="clickbtn download-cv">Download CV <i class="fa fa-download"
+                              aria-hidden="true"></i></button>
+                        </div>
+                      </div>
+                          <!-- Social media icons-->
+                          <div class="col-lg-7 col-sm-6 col-12">
+                            <ul class="list-unstyled social-icons">
+
+                              <li><a href="https://github.com/MisacherioKE"><i class="fa-brands fa-github"></i></a></li>
+                              <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BNNferOm9TmaariBOmNRgSw%3D%3D"><i class="fa-brands fa-linkedin"></i></a></li>
+                              <li><a href="https://twitter.com/misacherioKE"><i class="fa-brands fa-twitter"></i></a></li>
+                              <li><a href="https://wa.me/message/DG6NS7TPBBIJP1"><i class="fa-brands fa-whatsapp"></i></a></li>
+                             
+                            </ul>
+                          </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </section>
-        <section id="contact" class="contact">
-            <p class="sevice1">Get in Touch</p>
-            <p class="sevice2">Connect With Me</p>
-            <div class="contactCont">
-                <div class="divA">
-                    <p class="pOne"> Please fill out the form on this section to connect with me. Or call <br>  between 9:00 a.m. and 8:00 p.m. EAT, Monday through Friday.</p>
-                    <img src="/public/images/phone_in_talk_white_24dp.svg" alt="">
-                    <p class="pTwo">Call me</p>
-                       <p class="red"> +254 700 796 985  </p>
-                        <img src="/public/images/whatsapp_white_24dp.svg" alt="">
-                        <p class="pThree">Whatsapp </p>
-                            <p class="red">+254 700 796 985</p>
-                        <img src="/public/images/email_white_24dp.svg" alt="">
-                        <p class="pFour">Email </p>
-                            <p class="red">misacherio@hotmail.com</p>
+              </div>
+              <!-- About-Me End -->
+              <!-- Resume section Start -->
+              <div class="resume-section ">
+                <!-- Resume title-->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-title animate__animated animate__fadeInUp animate__delay-3s">
+                      <P class="common-desctiption">Check out my Resume</P>
+                      <h1 class="common-title ">my <span>Resume</span></h1>
+                      <div class="animated-bar "></div>
+                    </div>
+                  </div>
                 </div>
-                <div class="divB">
-                    <input class="input" type="text" placeholder="Your name">
-                    <input class="input" type="text" placeholder="Your email">
-                    <input class="input" type="text" placeholder="Phone Number">
-                    <input class="message" type="text" placeholder="Your message here">
-                    <input class="sub" type="submit" value="Submit message">
+                <!-- Resume title End-->
+                <!-- Resume Content -->
+                <div class="row">
+                  <!-- Education part-->
+                  <div class="col-md-6 col-12 ">
+                    <div class=" col-block education ">
+                      <h3 class="about-subtitle">Education</h3>
+                      <div class="resume-item"><span class="item-arrow"></span>
+                        <h5 class="item-title">HCNA</h5><span
+                          class="item-details">Technical University of Mombasa / 09/2019 - 11/2019</span>
+                       
+                      </div>
+                      <div class="resume-item"><span class="item-arrow"></span>
+                        <h5 class="item-title">Bachelor of Technology in ICT</h5><span
+                          class="item-details">Technical University of Mombasa / 2016 - 2020</span>
+                       
+                      </div>
+                  
+                    </div>
+                  </div>
+                  <!-- Experience part-->
+                  <div class="col-md-6 col-12 ">
+                    <div class=" col-block education">
+                      <h3 class="about-subtitle">Experience</h3>
+                      <div class="resume-item"><span class="item-arrow"></span>
+                        <h5 class="item-title">Software Engineer</h5><span class="item-details">Misacherio Technologies / 2019 -
+                          present</span>
+                       
+                      </div>
+                      <div class="resume-item"><span class="item-arrow"></span>
+                        <h5 class="item-title">Web Developer | System Administrator</h5><span class="item-details">Pillars Care Foundation 2022 -
+                          present</span>
+                        
+                      </div>
+                     
+                    </div>
+                  </div>
                 </div>
+                <!-- Resume ContentEnd -->
+              </div>
+              <!-- / Resume section End-->
+              
+              <!-- service section  -->
+              <div class="services-section text-center ">
+                <div class="row ">
+                  <div class="col-12">
+                    <div class="section-title  animate__animated animate__fadeInUp animate__slower animate__delay-3s ">
+                      <P class="common-desctiption">Services I offer to my clients</P>
+                      <h1 class="common-title">My <span>Services</span></h1>
+                      <div class="animated-bar"></div>
+                    </div>
+                
+                  </div>
+                </div>
+                <div class="row animate__animated animate__zoomIn animate__slower animate__delay-3s">
+                  <!-- Single Item -->
+                  <div
+                    class="col-lg-3 col-sm-6 services-box animate__animated animate__zoomIn animate__slower animate__delay-3s">
+                    <div class="service-item">
+                      <i class="fas fa-laptop-code"></i>
+                      <h4><span class="service-line">Website Design</span></h4>
+                      <p>
+                        I work closely with you to design and execute innovative solutions in Website Development.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+
+                  <!-- Single Item -->
+                  <div
+                    class="col-lg-3 col-sm-6 services-box animate__animated animate__zoomIn animate__slower animate__delay-3s">
+                    <div class="service-item">
+                      <i class="fas fa-palette"></i>
+                      <h4><span class="service-line">Branding</span></h4>
+                      <p>
+                       I maintain a well thought out design process involving research, prototyping, and evaluations. 
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+
+                  <!-- Single Item -->
+                  <div
+                    class="col-lg-3 col-sm-6 services-box animate__animated animate__zoomIn animate__slower animate__delay-3s">
+                    <div class="service-item">
+                      <i class="fas fa-object-ungroup"></i>
+                      <h4><span class="service-line">Digital Marketing</span></h4>
+                      <p>
+                        I employ essential trade skills to help introduce clients to your brand to boost sales.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+
+                  <!-- Single Item -->
+                  <div
+                    class="col-lg-3 col-sm-6 services-box animate__animated animate__zoomIn animate__slower animate__delay-3s">
+                    <div class="service-item">
+                      <i class="far fa-object-ungroup"></i>
+                      <h4><span class="service-line">Content</span></h4>
+                      <p>
+                        I curate quality content that drives search engine results and increases engagement traffic.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+                
+                </div>
+              </div>
+              <!-- / service section -->
+             
             </div>
-        </section>
-        <section class="footer">
-            <a class="top" href="#main">Top</a>
-            <div class="brand">
-                <p>Logo</p>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Protfolio Section Start-->
+      <section id="portfolio" class="section">
+        <div class="homecolor-block"></div>
+        <div class="common_bg animate__animated animate__fadeInLeft">
+          <div class="container">
+            <div class="protfolio-section text-center  ">
+              <!-- Protfolio-Title Start -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-title animate__animated animate__fadeInDown animate__delay-1s">
+                    <P class="common-desctiption">Showcasing some of my best work</P>
+                    <h1 class="common-title">My <span>Portfolio</span></h1>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Protfolio-Title Start -->
+              
+              <!-- Portfolio Mix Content Start -->
+              <div class="row portfolio-list animate__zoomIn animate__animated animate__delay-3s">
+                <ul class="container ">
+                  <!-- Mix Content-Box -->
+                  <li class="mix webdevelopment col-xl-3 col-lg-4 col-md-4">
+                    <a  href="https://stoic-ramanujan-2b08e8.netlify.app/">
+                      <img src="../public/images/ubunifu.PNG"  alt="a screenshot of ubunifu's website" />
+                      <div class="info">
+                        <h3 class="title">Ubunifu</h3>
+                        <span class="post">College Website</span>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Mix Content-Box -->
+                  <li class="mix webdesign col-xl-3 col-lg-4 col-md-4">
+                    <a href="#" >
+                      <img src="../public/images/ecommerce.PNG"  alt="a screenshot of an ecommerce website" />
+                      <div class="info">
+                        <h3 class="title">Order Online</h3>
+                        <span class="post">Ecommerce</span>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Mix Content Box -->
+                  <li class="mix uiuxdesign col-xl-3 col-lg-4 col-md-4">
+                    <a href="https://misacheriophotography.netlify.app/" >
+                      <img src="../public/images/photograghy.PNG"  alt="a screenshot of a photograghy website" />
+                      <div class="info">
+                        <h3 class="title">Photography</h3>
+                        <span class="post">photograghy Website</span>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Mix Content Box -->
+                  <li class="mix webdevelopment col-xl-3 col-lg-4 col-md-4">
+                    <a href="http://www.pillarscarefoundation.org">
+                      <img src="../public/images/pillarsCare.PNG"  alt="a screenshot of a pillarscare website" />
+                      <div class="info">
+                        <h3 class="title">Pillars Care Foundation</h3>
+                        <span class="post">Non-Profit Organisation </span>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Mix Content Box -->
+                  <li class="mix webdesign col-xl-3 col-lg-4 col-md-4">
+                    <a href="https://www.makinischools.com/" >
+                      <img src="../public/images/makiniSchool.PNG"  alt="a screenshot of makini school website" />
+                      <div class="info">
+                        <h3 class="title">Makini School Clone</h3>
+                        <span class="post">School Website</span>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Mix Content Box -->
+                  <li class="mix graphic col-xl-3 col-lg-4 col-md-4">
+                    <a href="https://hellochef.netlify.app/" data-caption="Graphic Design"
+                       data-size="1200x600">
+                      <img src="../public/images/helloCapture.PNG"  alt="a screenshot of hello chef website" />
+                      <div class="info">
+                        <h3 class="title">Cuisine</h3>
+                        <span class="post">Restaurant Website</span>
+                      </div>
+                    </a>
+                  </li>
+                
+                </ul>
+              </div>
+              <!-- Portfolio Mix Content End -->
             </div>
-            <div class="socialMedia">
-                <p>Let's connect</p>
+          </div>
+        </div>
+      </section>
+      <!-- Protfolio Section End -->
+
+      <!-- Blog section Start -->
+      <section id="blog" class="section">
+        <div class="homecolor-block"></div>
+        <div class="common_bg animate__animated animate__fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="container">
+            <!-- Blog-Section Title -->
+            <div class="blog-section text-center">
+              <div class="row ">
+                <div class="col-12">
+                  <div class="section-title animate__animated animate__bounceInDown animate__delay-1s">
+                    <P class="common-desctiption">Check out my latest blog post</P>
+                    <h1 class="common-title">My <span>blog</span></h1>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+            <!-- Blog-Section Title End -->
+            <!-- Blog-Content Box Start -->
+            <div class="blog-section animate__animated animate__fadeInUp animate__delay-2s">
+              <div class="row justify-content-center">
+                <!-- Single post-->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="single-post">
+                    <div class="ih-item square effect ">
+                      <a href="https://twitter.com/misacherioKE">
+                        <div class="img"><img src="../public/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="img"></div>
+                      </a>
+                    </div>
+                    <div class="card-body post-content">
+                      <div class="content-date">Dec 29, 2021</div>
+                      <div class="content-title">
+                        <h5><a href="https://twitter.com/misacherioKE">Java Script Project Ideas</a></h5>
+                      </div>
+                      <div class="content-description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis cumque accusamus minima ducimus nobis neque, quasi odio commodi provident quis
+                             quo tenetur esse voluptatem. Ipsum mollitia nihil molestias sequi adipisci!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+    
+              </div>
+            </div>
+            <!-- Blog-Content Box End -->
+          </div>
+        </div>
+      </section>
+      <!-- Blog section End -->
+
+      <!-- Contact section Start -->
+      <section id="contact" class="section">
+        <div class="homecolor-block"></div>
+        <div class="common_bg animate__animated animate__zoomIn">
+          <div class="container">
+            <!-- Contact-page Start -->
+            <div class="contact-section">
+              <!-- Contact-Section Title -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-title animate__animated animate__fadeInDown animate__delay-1s">
+                    <P class="common-desctiption">Let's talk</P>
+                    <h1 class="common-title">my <span>contact</span></h1>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Contact-Section Title End-->
+              <!-- Contact Form Start -->
+              <div class="contact-section">
+                <div class="row">
+                  <!-- Contact form -->
+                  <div class="col-lg-7 col-12 ">
+                    <form class="contact-form animate__animated animate__fadeInLeft animate__delay-2s" id="contact-form">
+                      <h4 class="content-title">contact me</h4>
+                      <div class="row">
+                        <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name"
+                            type="text" name="name" placeholder="Name" required=""></div>
+                        <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email"
+                            type="email" name="email" placeholder="Email" required=""></div>
+                        <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text"
+                            name="subject" placeholder="Subject" required=""></div>
+                        <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message"
+                            name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                        <div class="col-12 mb-4 form-submit"><button class="clickbtn button-main button-scheme"
+                            id="contact-submit" type="submit">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- Contact form End -->
+                  <!-- Contact info -->
+                  <div class="col-lg-5 col-12 ">
+                    <div class="contact-info animate__animated animate__fadeInRight animate__delay-3s">
+                      <h4 class="content-title">Contact Info</h4>
+                      <p class="info-description">Always available for freelance work.
+                        Feel free to contact me.</p>
+                      <ul class="list-unstyled list-info" style="display: inline-grid">
+                        <li>
+                          <div class="media d-flex align-items-center"><span class="info-icon"><i
+                                class="fas fa-user-alt"></i></span>
+                            <div class="media-body info-details">
+                              <h6 class="info-type">Name</h6><span class="info-value">Carlos Misachi</span>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li>
+                          <div class="media d-flex align-items-center"><span class="info-icon"><i
+                                class="fas fa-envelope"></i></span>
+                            <div class="media-body info-details">
+                              <h6 class="info-type">Email Me</h6><span class="info-value"><a
+                                  href="mailto:misacherio@hotmail.com">misacherio@hotmail.com</a></span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- Social media icons-->
+                    <div class="fixed-block d-flex animate__animated animate__jackInTheBox animate__delay-3s">
+                      <ul class="list-unstyled social-icons p-3">
+
+                        <li><a href="https://github.com/MisacherioKE"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BNNferOm9TmaariBOmNRgSw%3D%3D"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/misacherioKE"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://wa.me/message/DG6NS7TPBBIJP1"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Contact info End -->
+                </div>
+              </div>
+              
+              <!-- Contact-Footer -->
+              <div class="row justify-content-center animate__animated animate__fadeInUp animate__delay-5s">
+                <div class="col-lg-6 text-center">
+                  <h5 class="footer">Copyright&copy; &#160;<script>
+                      document.write(new Date().getFullYear())
+                    </script><a> Carlos Misachi</a>&#160;&#160;<i
+                      class="fas fa-heart animate__animated animate__pulse animate__faster animate__infinite	infinite"></i>&#160;&#160;All
+                    rights reserved</h5>
+                </div>
+              </div>
+              <!-- Contact-Footer End -->
+            </div>
+            <!-- Contact-page End -->
+          </div>
+        </div>
+      </section>
+      <!-- Contact section End -->
+
+    </div>
+    <!-- section-part End-->
+  </div>
+  <!-- Body Part End -->
+
+  <!-- Mouse-Cursor -->
+  <div class="mouse-cursor cursor-outer"></div>
+  <div class="mouse-cursor cursor-inner"></div>
+  <!-- Mouse-Cursor End-->
+  <!-- Optional JavaScript -->
+  <!-- Jquery Js -->
+  <script src="/public/js/jquery.min.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="/public/js/bootstrap.js"></script>
+  <!-- Jquery FancyBox Js -->
+  <script src="/public/js/jqueryFancybox.js"></script>
+  <!-- Mixitup Js -->
+  <script src="/public/js/mixitup.js"></script>
+  <!-- Owlcarousel Js -->
+  <script src="/public/js/owl.js"></script>
+  <!-- Jquery Countdown Js -->
+  <script src="/public/js/jqueryCountdown.js"></script>
+  <!-- Wow Js -->
+  <script src="/public/js/wow.js"></script>
+  <!-- Custom Js -->
+  <script src="/public/js/custom.js"></script>
+
 </body>
+
 </html>
